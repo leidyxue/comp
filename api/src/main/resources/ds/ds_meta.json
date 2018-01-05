@@ -1,0 +1,74 @@
+{
+  "DATABASE": [
+    {
+      "dsType": "MYSQL",
+      "name": {
+        "en_US": "MySQL",
+        "zh_CN": "MySQL",
+        "fr_FR": "MySQL"
+      },
+      "extends": {
+        "host": "127.0.0.1:3306",
+        "parameter": "autoReconnect=true&allowMultiQueries=true"
+      }
+    },
+    {
+      "dsType": "POSTGRESQL",
+      "name": {
+        "en_US": "PostgreSQL",
+        "zh_CN": "PostgreSQL",
+        "fr_FR": "PostgreSQL"
+      },
+      "extends": {
+        "host": "127.0.0.1:5432",
+        "parameter": "ssh=true&autoReconnect=true"
+      }
+    },
+    {
+      "dsType": "KYLIN",
+      "name": {
+        "en_US": "Kylin",
+        "zh_CN": "Kylin",
+        "fr_FR": "Kylin"
+      },
+      "extends": {
+        "host": "127.0.0.1:7070"
+      }
+    }
+  ],
+  "PUBLIC_DATA": [
+    {
+      "id": "WEATHER",
+      "name": {
+        "zh_CN": "天气数据",
+        "en_US": "Weather",
+        "fr_FR": "Temps"
+      },
+      "conf":"weather.json"
+    },{
+      "id": "GDP",
+      "name": {
+        "en_US": "GDP Data",
+        "zh_CN": "GDP",
+        "fr_FR": "PIB"
+      },
+      "conf":"GDP.json"
+    },{
+      "id": "Population",
+      "name": {
+        "en_US": "Population",
+        "zh_CN": "人口数据",
+        "fr_FR": "Population"
+      },
+      "conf":"population.json"
+    },{
+      "id": "Income",
+      "name": {
+        "en_US": "Income",
+        "zh_CN": "居民收支",
+        "fr_FR": "Recettes et dépenses des habitants"
+      },
+      "conf":"income.json"
+    }
+  ]
+}

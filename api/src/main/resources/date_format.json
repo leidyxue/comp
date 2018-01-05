@@ -1,0 +1,44 @@
+{
+  "zh_CN": {
+    "year": "yyyy年",
+    "to_year": "yyyy年",
+    "month": "MM月",
+    "to_month": "yyyy年MM月",
+    "day": "dd日",
+    "to_day": "yyyy年MM月dd日",
+    "hour": "HH时",
+    "to_hour": "yyyy年MM月dd日 HH时",
+    "minute": "mm分",
+    "to_minute": "yyyy年MM月dd日 HH时mm分",
+    "second": "ss秒",
+    "to_second": "yyyy年MM月dd日 HH时mm分"
+  },
+  "en_US": {
+    "year": "yyyy年",
+    "to_year": "yyyy年",
+    "month": "MM月",
+    "to_month": "yyyy年MM月",
+    "day": "dd日",
+    "to_day": "yyyy年MM月dd日",
+    "hour": "HH时",
+    "to_hour": "yyyy年MM月dd日 HH时",
+    "minute": "mm分",
+    "to_minute": "yyyy年MM月dd日 HH时mm分",
+    "second": "ss秒",
+    "to_second": "yyyy年MM月dd日 HH时mm分"
+  },
+  "fr_FR": {
+    "year": "yyyy年",
+    "to_year": "yyyy年",
+    "month": "MM月",
+    "to_month": "yyyy年MM月",
+    "day": "dd日",
+    "to_day": "yyyy年MM月dd日",
+    "hour": "HH时",
+    "to_hour": "yyyy年MM月dd日 HH时",
+    "minute": "mm分",
+    "to_minute": "yyyy年MM月dd日 HH时mm分",
+    "second": "ss秒",
+    "to_second": "yyyy年MM月dd日 HH时mm分"
+  }
+}
